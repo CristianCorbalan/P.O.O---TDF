@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "asciichart": "^1.5.25",
+    "one-liner-joke": "^1.2.2",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "p.o.o---tdf",
+  "description": "��#\u0000 \u0000P\u0000.\u0000O\u0000.\u0000O\u0000-\u0000-\u0000-\u0000T\u0000D\u0000F\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "alturaPersona.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianCorbalan/P.O.O---TDF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianCorbalan/P.O.O---TDF/issues"
+  },
+  "homepage": "https://github.com/CristianCorbalan/P.O.O---TDF#readme"
+}
