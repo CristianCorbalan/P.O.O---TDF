@@ -1,0 +1,15 @@
+"use strict";
+exports.__esModule = true;
+var Futbolistas_1 = require("./Futbolistas");
+var Entrenador_1 = require("./Entrenador");
+var Masajistas_1 = require("./Masajistas");
+var seleccionArgentina1 = new Futbolistas_1.Futbolistas(8154, "02-Septiembre-1992", "Martinez Romero", "Damian Emiliano", 30, "Argentina", "Arquero", "Argentina");
+var seleccionArgentina2 = new Futbolistas_1.Futbolistas(3120, "13-Agosto-1994", "Correa", "Carlos Joaquín", 28, "Argentina", "Delantero", "Argentina");
+var seleccionArgentina3 = new Futbolistas_1.Futbolistas(2339, "12-Febrero-1988", "Otamendi", "Nicolás Hernán Gonzalo", 34, "Argentina", "Defensor", "Argentina");
+var seleccionArgEntrenador = new Entrenador_1.Entrenador("Lionel Sebastián", "Scaloni", "16-Mayo-1978", 1381, "AFA");
+var seleccionArgMasajista = new Masajistas_1.Masajista("Marcelo", "DAndrea", "20-Enero-1956", 1483, "Fisioterapeuta", 303826);
+console.log(seleccionArgentina1);
+console.log(seleccionArgentina2.getPosicion());
+console.log(seleccionArgentina3.getFechaDeNacimiento());
+console.log(seleccionArgEntrenador);
+console.log(seleccionArgMasajista.getMatricula());
